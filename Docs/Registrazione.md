@@ -23,5 +23,7 @@ COME MODIFICARE UN FILE:
 2) Dopo aver effettuato le modifiche necessarie nel file ".md" salvare e chiudere.
 3) Le modifiche effettuate si ritrovano su GitHub Desktop nella sezione "Changes".
 4) Per condividere scrivere una "Summary" e una "Description".
+5) Dopo premere "Commit to main" per preparare  il nuovo file all'invio.
+6) Infine premere Push per inviare il file al resto dei membri.
 
 
