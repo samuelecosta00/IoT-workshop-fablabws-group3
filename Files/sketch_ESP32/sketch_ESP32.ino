@@ -24,7 +24,7 @@ float temp;
 float hum;
 //dichiariamo due varibili che useremò come intervalli tra un invio di dati e l'altro
 unsigned long previousMillis = 0;
-const long interval = 10000;
+const long interval = 5000;
 //creaiamo un oggetto Mqtt che gestirà le richieste verso il server
 AsyncMqttClient mqttClient;
 TimerHandle_t mqttReconnectTimer;
