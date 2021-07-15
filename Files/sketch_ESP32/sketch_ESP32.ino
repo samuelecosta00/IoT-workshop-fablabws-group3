@@ -56,10 +56,11 @@ void connectToMqtt() {
   mqttClient.connect();
 }
 
-void onMqttPublish(uint16_t packetId) {
-  Serial.print("Publish acknowledged.");
-  Serial.print(" packetId: ");
-  Serial.println(packetId);
+void onMqttDisconnect(AsyncMqttClientDisconnectReason reason) {
+  Serial.println("Disconnected from MQTT.");
+  if (WiFi.isConnected()) { 
+    xTimerStart(mqttReconnectTimer, 0);
+  }
 }
 
 void onMqttConnect(bool sessionPresent) {
