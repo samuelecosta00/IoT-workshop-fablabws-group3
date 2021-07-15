@@ -6,7 +6,7 @@
 
 **TEST Esp32:**
 
-Testare la scheda tramite il codice allegato nei file***(Configurazione e test Ep32)*** e installare due librerie per il sensore d'umidità.
+Testare la scheda tramite il codice allegato nei file*(Configurazione e test Ep32)* e installare due librerie per il sensore d'umidità.
 
 **PROBLEMI E SOLUZIONI:**
 
